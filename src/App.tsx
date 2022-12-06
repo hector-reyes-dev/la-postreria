@@ -1,7 +1,7 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import Hero from "./components/Hero/Hero";
 import "./App.scss";
+import Awards from "./components/Awards/Awards";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Hero />
+      <Awards />
     </div>
   );
 }
