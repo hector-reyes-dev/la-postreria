@@ -14,7 +14,7 @@ const Header = () => {
           <li>Tabla de inversión</li>
         </ul>
       </nav>
-      <Button label="Solicitar Información" bgColor="var(--purple)" />
+      <Button label="Solicitar Información" color="purple" />
     </header>
   );
 };

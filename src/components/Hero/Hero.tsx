@@ -15,7 +15,7 @@ const Hero = () => {
           <h1>
             Adquiere una franquicia <br /> La Postrería.
           </h1>
-          <Button label="Ver beneficios de inversión" bgColor="var(--purple)" />
+          <Button label="Ver beneficios de inversión" color="purple" />
         </div>
       </div>
     </main>

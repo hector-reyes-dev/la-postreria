@@ -3,13 +3,16 @@ import "./Button.scss";
 
 interface ButtonProps {
   label: React.ReactNode;
-  bgColor?: string;
+  color?: "purple" | "green" | "pink";
   size?: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ label, bgColor, size }) => {
+const Button: React.FC<ButtonProps> = ({ label, color, size }) => {
   return (
-    <button className="main-button" style={{ backgroundColor: bgColor }}>
+    <button
+      className="main-button"
+      style={{ backgroundColor: `var(--${color})` }}
+    >
       {label}
     </button>
   );
