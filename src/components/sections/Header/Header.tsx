@@ -1,5 +1,5 @@
-import Button from "../Button/Button";
-import postreriaIcon from "../../assets/icons/icon.png";
+import Button from "../../Button/Button";
+import postreriaIcon from "../../../assets/icons/icon.png";
 import "./Header.scss";
 
 const Header = () => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Hero from "./components/Hero/Hero";
-import Awards from "./components/Awards/Awards";
-import UsContent from "./components/UsContent/UsContent";
+import Hero from "./components/sections/Hero/Hero";
+import Awards from "./components/sections/Awards/Awards";
+import UsContent from "./components/sections/UsContent/UsContent";
 import "./App.scss";
 
 function App() {

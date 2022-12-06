@@ -1,8 +1,8 @@
-import Award from "../Award/Award";
-import icon1 from "../../assets/icons/award-icon-1.png";
-import icon2 from "../../assets/icons/award-icon-2.png";
-import icon3 from "../../assets/icons/award-icon-3.png";
-import icon4 from "../../assets/icons/award-icon-4.png";
+import Award from "../../Award/Award";
+import icon1 from "../../../assets/icons/award-icon-1.png";
+import icon2 from "../../../assets/icons/award-icon-2.png";
+import icon3 from "../../../assets/icons/award-icon-3.png";
+import icon4 from "../../../assets/icons/award-icon-4.png";
 import "./Awards.scss";
 
 const Awards = () => {

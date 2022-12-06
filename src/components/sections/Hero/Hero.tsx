@@ -1,8 +1,8 @@
 import Header from "../Header/Header";
-import bgImage from "../../assets/images/background.png";
-import logo from "../../assets/logos/la-postreria.png";
+import Button from "../../Button/Button";
+import bgImage from "../../../assets/images/background.png";
+import logo from "../../../assets/logos/la-postreria.png";
 import "./Hero.scss";
-import Button from "../Button/Button";
 
 const Hero = () => {
   return (

@@ -1,6 +1,6 @@
-import Title from "../Title/Title";
-import video from "../../assets/images/video.png";
-import Button from "../Button/Button";
+import Title from "../../Title/Title";
+import video from "../../../assets/images/video.png";
+import Button from "../../Button/Button";
 import "./UsContent.scss";
 
 const UsContent = () => {
