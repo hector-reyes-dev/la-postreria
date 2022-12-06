@@ -1,7 +1,18 @@
+import React from "react";
 import "./Button.scss";
 
-const Button = (label: string, size?: string, color?: string) => {
-  return <button className="main-button">{label}</button>;
+interface ButtonProps {
+  label: React.ReactNode;
+  bgColor?: string;
+  size?: string;
+}
+
+const Button: React.FC<ButtonProps> = ({ label, bgColor, size }) => {
+  return (
+    <button className="main-button" style={{ backgroundColor: bgColor }}>
+      {label}
+    </button>
+  );
 };
 
 export default Button;

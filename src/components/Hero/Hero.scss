@@ -1,0 +1,36 @@
+.hero {
+  background-color: var(--purple);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
+
+  &-container {
+    padding-block-start: 8rem;
+    display: flex;
+    margin: 0 auto;
+    max-width: 70vw;
+
+    img {
+      padding: 2rem;
+    }
+
+    &-info {
+      text-align: start;
+      color: var(--white);
+
+      h1 {
+        margin-block-start: 0.5rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        font-weight: bold;
+      }
+
+      h4 {
+        margin-block-end: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
