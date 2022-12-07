@@ -1,3 +1,5 @@
+import "./Title.scss";
+
 interface TitleProps {
   firstLine: string;
   secondLine: string;

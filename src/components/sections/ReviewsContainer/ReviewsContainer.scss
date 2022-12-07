@@ -1,0 +1,23 @@
+.reviews-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 70vw;
+
+  img {
+    max-width: 40%;
+  }
+}
+
+.reviews-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.reviews-container {
+  display: flex;
+  gap: 2.5rem;
+}

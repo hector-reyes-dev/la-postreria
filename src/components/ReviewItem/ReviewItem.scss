@@ -1,0 +1,23 @@
+.review-container {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 3.5rem;
+    height: auto;
+  }
+}
+
+.review-info {
+  padding-inline-start: 1rem;
+  text-align: start;
+}
+
+.score {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.max-score {
+  margin: 0;
+}
